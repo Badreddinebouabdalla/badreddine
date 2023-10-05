@@ -1,0 +1,13 @@
+{
+    "name": "u0_a507/php-mailer",
+    "description": "send emails using PHP",
+    "authors": [
+        {
+            "name": "Badreddinebouabdalla",
+            "email": "bouabdellahbadreddine@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    }
+}

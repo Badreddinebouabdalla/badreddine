@@ -1,0 +1,60 @@
+@media (max-width: 991px) {
+    .col{
+        width: 100%;
+    }
+    .sub-title{
+        width: 100%;
+    }
+    header .hamburger-lines{
+        display: block;
+    }
+    header nav{
+        transition: height .5s;
+        padding: var(--nav-padding);
+        position: absolute;
+        width: 80%;
+        height: 0;
+        box-shadow: var(--shadow);
+        top: calc(var(--header-height)*1.1);
+        overflow: hidden;
+        background: white;
+        background: var(--first-bg);
+
+    }
+    header nav ul li{
+        display: block;
+        margin: 15px 0;
+    }  
+    header nav ul li a::before{
+        display: none;
+    }
+    .home-section .container{
+        height: 600px;
+    }
+    .home-section .col:last-child{
+        display: none;
+    }
+    .about-section .col{
+        min-width: 100%;
+    }
+    .about-section .container .skills .skill{
+        margin: 20px 0;
+    }
+    .services-section .service{
+        width: 70%;
+    }
+    .portfolio-section .work{
+        width: 47%;
+    }
+    .plans-section .plans .plan{
+        width: 70%;
+
+    }
+    .contact-section .cards .card{
+        width: 70%;
+    }
+    .contact-section .col{
+        width: 100%;
+    }
+
+}
